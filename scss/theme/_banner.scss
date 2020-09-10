@@ -1,0 +1,143 @@
+/* banner section start
+	============================================================================================ */
+.hero-banner{
+  position: relative;
+  background: #22195b;
+  background-size: cover;
+  padding: 90px 0 60px 0;
+  // height: 400px;
+  z-index: 1;
+
+  @media(min-width: 600px){
+    padding: 150px 0 120px 0;
+  }
+
+  @media(min-width: 991px){
+    padding: 175px 0 160px 0;
+  }
+
+  @media(min-width: 1200px){
+    padding: 265px 0 275px 0;    
+  }
+
+  &__img{
+    position: relative;
+    
+    @media(min-width: 1200px){
+      img{
+        position: absolute;
+        top: 0;
+        left: -110px;
+      }
+    }
+  }
+
+  &__content{
+
+
+    h1{
+      color: $white;
+      margin-bottom: 22px;
+    }
+
+    p{
+      color: #fff;
+      margin-bottom: 45px;
+    }
+  }
+
+  &::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: url(../img/banner/banner-bg.png) left center no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  &--sm{
+    padding: 0;
+    height: 300px;
+
+    &::after{
+      height: 100%;
+    }
+
+    @media(min-width: 1000px){
+      height: 500px;
+    }
+
+    &__content{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+      margin-top: 20px;
+      text-align: center;
+
+      @media(min-width: 600px){
+        margin-top: 40px;
+      }
+      
+      & > *{
+        color: #fff;
+      }
+  
+      h3{
+        font-size: 27px;
+        margin-bottom: 0;
+      }
+  
+      h1{
+        margin-bottom: 10px;
+      }
+  
+      h4{
+        font-size: 18px;
+      }
+    }
+  }
+
+  
+  
+}
+/* banner section end
+  ============================================================================================ */
+  
+/* breadcrumb section start
+  ============================================================================================ */
+  .banner-breadcrumb{
+    display: inline-block;
+    
+    .breadcrumb{
+      background: transparent;
+      padding: 0;
+  
+      &-item{
+        padding: .1rem;
+  
+        a{
+          text-transform: capitalize;
+          color: #fff;
+        }
+  
+        &+.breadcrumb-item::before{
+          color: #fff;
+          padding-left: .2rem;
+          padding-right: .4rem;
+          // content: "-";
+        }
+  
+        &.active{
+          color: #fff;
+        }
+      }
+    }
+  }
+/* breadcrumb section end
+  ============================================================================================ */

@@ -1,0 +1,280 @@
+/* Our Major Cause Area css
+============================================================================================ */
+
+.our_major_cause {
+    .owl-item {
+        padding: 0 10px;
+        margin-bottom: 50px;
+        @media(max-width: 576px) {
+            margin-bottom: 0;
+        }
+    }
+    .card {
+        border: 0;
+        // box-shadow: 0 10px 44px -7px rgba(221, 221, 221, 0.85);
+        box-shadow: 0 3px 14px 0px rgba(221, 221, 221, 0.85);
+        margin-bottom: 30px;
+        overflow: hidden;
+        .card-body {
+            @media(max-width: 576px) {
+                padding: 5px;
+            }
+        }
+        figure {
+            overflow: hidden;
+            margin: 0;
+            img {
+                @include transition();
+            }
+        }
+        .card_inner_body {
+            padding: 20px 12px 30px;
+            .card-body-top {
+                margin-bottom: 30px;
+                span {
+                    // color: $dip;
+                }
+            }
+        }
+        .card-text {
+            margin-bottom: 0;
+        }
+        .progress {
+            overflow: visible;
+            height: 4px;
+            position: relative;
+            background: rgba(255, 255, 255, 0.2);
+            top: -4px;
+            .progress-bar {
+                // background-color: $baseColor;
+                span {
+                    position: absolute;
+                    bottom: -49px;
+                    right: 11px;
+                    font-size: 14px;
+                    // color: $dip;
+                }
+            }
+        }
+        &:hover {
+            img {
+                @include transform(scale(1.2));
+            }
+            .main_btn2 {
+                // background: $baseColor;
+                // border: 1px solid $baseColor;
+                color: $white;
+            }
+        }
+    }
+}
+
+/* Clients Logo Area css
+============================================================================================ */
+
+.clients_logo_area {
+    .clients_slider {
+        .item {
+            text-align: center;
+            img {
+                width: auto;
+                text-align: center;
+                display: block;
+                margin: auto;
+                line-height: 70px;
+                @include filter(grayscale(100%));
+                opacity: .2;
+                @include transition;
+            }
+            &:hover {
+                img {
+                    opacity: 1;
+                    @include filter(grayscale(0%));
+                }
+            }
+        }
+    }
+}
+
+/* End Clients Logo Area css
+============================================================================================ */
+
+/* Clients Says Area css
+============================================================================================ */
+
+
+.says_left {
+    max-width: 335px;
+    h3 {
+        // color: $dip;
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    p {
+        margin-bottom: 0px;
+    }
+}
+
+.says_item {
+    background: #fff;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    @include transition;
+    h4 {
+        font-size: 20px;
+        // color: $dip;
+        margin-bottom: 13px;
+    }
+    h5 {
+        // color: $pfont;
+        // font-family: $rob;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    p {
+        margin-bottom: 0px;
+    }
+    &:hover {
+        box-shadow: 0px 10px 30px 0px rgba(98, 71, 234, 0.1);
+        border-color: #fff;
+    }
+}
+
+/* End Clients Says Area css
+============================================================================================ */
+
+/* Start About Us css
+=========================================================================================== */
+
+.about_us {
+    .about_img {
+        &:after {
+            content: '';
+            position: absolute;
+            // background: $lightGray;
+            top: 30px;
+            bottom: -5px;
+            left: -10px;
+            right: -10px;
+            z-index: 1;
+            @media (max-width: 1024px) {
+                background: $white;
+            }
+        }
+        img {
+            position: relative;
+            z-index: 2;
+            box-shadow: 0px 13px 35px #c9c9c9;
+        }
+    }
+    .content_wrapper {
+        padding: 25px 0;
+        h1 {
+            margin-bottom: 40px;
+        }
+        .main_btn {
+            margin-top: 50px;
+        }
+    }
+    .bottom_para {
+        margin-top: 50px;
+    }
+}
+
+/* About Us css End
+=========================================================================================== */
+
+/* Start recent Events css
+=========================================================================================== */
+
+.recent_event {
+    .single_event {
+        margin-bottom: 30px;
+        figure {
+            overflow: hidden;
+            margin: 0;
+            position: relative;
+            img {
+                @include transition();
+            }
+        }
+        .content_wrapper {
+            padding: 22px 28px 10px 0px;
+            @media(max-width: 1024px) {
+                padding: 0;
+            }
+            @media(max-width:1024px) {
+                margin-top: 0;
+            }
+            .date_time {
+                font-size: 12px;
+                margin-bottom: 10px;
+                @media(max-width: 1024px) {
+                    margin-bottom: 0;
+                }
+            }
+            .title {
+                margin-bottom: 20px;
+                @media(max-width: 1024px) {
+                    margin-bottom: 10;
+                }
+                a {
+                    // color: $dip;
+                }
+            }
+        }
+        &:hover {
+            .title {
+                a {
+                    // color: $baseColor;
+                }
+            }
+            img {
+                @include transform(scale(1.2));
+            }
+            .img-overlay {
+                background: initial;
+            }
+        }
+    }
+}
+
+/* recent Events css End
+=========================================================================================== */
+
+/* Start recent Details css
+=========================================================================================== */
+
+.event_details {
+    .event_content {
+        margin-top: 40px;
+    }
+    .left_content {
+        margin-top: 38px;
+        @media(max-width: 991px) {
+            margin-top: 0;
+        }
+        p {
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+    .right_content {
+        h2 {
+            margin-bottom: 20px;
+        }
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

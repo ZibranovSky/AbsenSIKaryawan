@@ -1,0 +1,23 @@
+/* section intro start
+	============================================================================================ */
+.section-intro{
+  max-width: 630px;
+  margin-right: auto;
+  margin-left: auto;
+
+  &__title{
+    font-weight: 700;
+    color: $title-color;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle{
+    font-size: 15px;
+    color: $text-color;
+    margin-bottom: 0;
+  }
+}
+/* section intro end
+	============================================================================================ */
+
+

@@ -1,0 +1,140 @@
+/* footer style start
+	============================================================================================ */
+.footer-area {
+	padding: 120px 0px 120px;
+	background: #0e1424;
+	@media (max-width: 991px) {
+		// background: $title-color;
+		padding: 60px 0px;
+	}
+	.single-footer-widget {
+		@media (max-width: 991px) {
+			margin-bottom: 30px;
+		}
+
+		p{
+			color: #7b838a;
+		}
+
+		h4 {
+      color: $white;
+      font-size: 22px;
+      margin-bottom: 25px;
+      font-weight: 600;
+			@media (max-width: 1024px) {
+				font-size: 18px;
+			}
+			@media (max-width: 991px) {
+				margin-bottom: 15px;
+			}
+		}
+		ul {
+			li {
+				margin-bottom: 10px;
+				a {
+					// @include transition();
+					color: $link-color;
+					// &:hover {
+					// 	color: $primary-color;
+					// }
+				}
+			}
+		}
+		.form-wrap {
+			margin-top: 25px;
+		}
+		input {
+			height: 48px;
+			border: none;
+			width: 67% !important;
+			font-weight: 400;
+			background: rgba(255, 255, 255, 0.2);
+			color: $white;
+			padding-left: 20px;
+			border-radius: 0;
+			font-size: 14px;
+			padding: 10px;
+			&:focus {
+				outline: none;
+				box-shadow: none;
+			}
+			@include placeholder {
+				padding-left: 10px;
+				color: $link-color;
+			}
+		}
+		.click-btn {
+			// @extend .gradient-bg;
+			font-family: $text-font;
+			color: $title-color;
+			border-radius: 0;
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
+			padding: 8px 20px;
+			border: 0;
+			font-size: 14px;
+			background: $white;
+      font-weight: 500;
+      text-transform: capitalize;
+			position: relative;
+			left: 0;
+			&:focus {
+				outline: none;
+				box-shadow: none;
+      }
+      
+      @media(max-width: 375px){
+        margin-top: 10px;
+      }
+
+			@media(min-width: 400px){
+				left: -50px;
+			}
+		}
+	}
+	.footer-bottom {
+		margin-top: 70px;
+		@media (max-width: 991px) {
+			margin-top: 20px;
+		}
+		p {
+			color: $link-color;
+
+			a{
+				color: $white;
+			}
+		}
+		// span {
+		// 	font-weight: 700;
+		// }
+		.footer-social {
+			text-align: center;
+			@media (max-width: 991px) {
+				text-align: left;
+				margin-top: 30px;
+			}
+			a {
+				background: rgba(255, 255, 255, 0.15);
+				margin-left: 3px;
+				width: 32px;
+				color: $white;
+				display: inline-grid;
+				text-align: center;
+				height: 32px;
+				align-content: center;
+				// @include transition();
+				&:hover {
+					// @extend .gradient-bg;
+          background: $white;
+          color: $primary-color;
+				}
+
+				i,span{
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+/* footer style end
+	============================================================================================ */

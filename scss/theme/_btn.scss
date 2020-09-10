@@ -1,0 +1,87 @@
+/*=================== custom button rule start ====================*/
+.button{
+  display: inline-block;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 24px;
+  border-radius: 30px;
+  background-color: $white;
+  color: $primary-color;
+  color: $title-color;
+  transition: all .4s ease;
+
+  i,span{
+    margin-left: 5px;
+  }
+
+  @media(min-width: 900px){
+    // padding: 12px 40px;
+    padding: 12px 45px;
+  }
+
+  &:hover{
+    background-color: transparent;
+    border-color: $primary-color;
+    color: #000022;
+  }
+
+  &-header{
+    padding: 12px 40px;
+  }
+
+  &.bg:hover{
+    border-color: $white;
+    color: $white;
+  }
+
+  &-light{
+    background-color: transparent;
+    border-color: $primary-color;
+
+    &:hover{
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+
+  &-blog{
+    border: 1px solid $primary-color;
+    border-radius: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #222222;
+    padding: 7px 30px;
+
+    &:hover{
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+
+  &-postComment{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: $primary-color;
+    color: $white;
+    border-radius: 4px;
+    padding: 14px 45px;
+  }
+
+  &-contactForm{
+    font-size: 15px;
+    background-color: $primary-color;
+    color: $white;
+    padding: 12px 36px;
+
+    &:hover{
+      border-color: $primary-color;
+      color: $primary-color;
+    }
+  }
+}
+/*=================== custom button rule end ====================*/
