@@ -20,7 +20,7 @@ Absen Karyawan - Sistem informasi karyawan merupakan aplikasi absensi berbasis w
   2. password = user
   
 -> Catatan(PENTING) :
-    <i>Sebelum mengimport database, pastikan anda membuat database sesuai dengan nama database yang ada di dalam folder db, yaitu 'karyawansi'</i>
+    <i style="color: yellow;">Sebelum mengimport database, pastikan anda membuat database sesuai dengan nama database yang ada di dalam folder db, yaitu 'karyawansi'</i>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Aplikasi ini adalah aplikasi open source, anda bisa menggunakan aplikasi saya ini untuk apapun. 
 Tetapi jika anda berkenan, silahkan donasi :
