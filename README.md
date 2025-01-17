@@ -24,4 +24,4 @@ Absen Karyawan - Sistem informasi karyawan merupakan aplikasi absensi berbasis w
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Aplikasi ini adalah aplikasi open source, anda bisa menggunakan aplikasi saya ini untuk apapun. 
 Tetapi jika anda berkenan, silahkan donasi :
-1. Paypal = https://paypal.me/Zeppy19?locale.x=id_ID
+
