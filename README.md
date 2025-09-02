@@ -25,3 +25,4 @@ Absen Karyawan - Sistem informasi karyawan merupakan aplikasi absensi berbasis w
 Aplikasi ini adalah aplikasi open source, anda bisa menggunakan aplikasi saya ini untuk apapun. 
 Tetapi jika anda berkenan, silahkan donasi :
 
+<b>Jika ada yang ingin di tanyakan bisa hubungi nomor berikut via wa : 0895-3301-31416</b>
